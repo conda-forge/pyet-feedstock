@@ -1,5 +1,5 @@
 {% set name = "pyet" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyet-{{ version }}.tar.gz
-  sha256: 0386fea15ae382d506b2178dc4755661bd06a23e72c84b6b9edae8f5f12d9581
+  sha256: 81bedbc592df50f83e917dd76b5d239516c150bae060c39c536169c57042888b
 
 build:
   noarch: python
